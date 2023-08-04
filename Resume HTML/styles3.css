@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main-container{
+    width:50%;
+    margin: auto;
+    display: flex;
+}
+.name{
+    font-size: 25px;
+    color:#eedf0e;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.degree{
+    font-size: 20px;
+    color:#fff;
+    padding-top: 5px;
+    padding-left: 45px;
+}
+.img{
+    width:90px;
+    height: 100px;
+    padding-top:70px;
+    padding-left:582px;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.left-panel{
+    width: 600px;
+    background-color: #dd9c3b;
+    position: relative;
+    padding-bottom: 7px;
+    border-top-left-radius: 20px;
+}
+.right-panel{
+    width:105%;
+    background-color: aqua;
+    border-top-right-radius: 20px;
+}
+.profile{
+    width: 676px;
+    height: 70px;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    margin-top:0px;
+    display: flex;
+    border-radius: 20px;
+}
+.image{
+    width:30%;
+}
+.text{
+    width:20%;
+}
+.heading{
+    color: rgb(238, 247, 246);
+    font-size: 17px;
+    padding-top:75px;
+    padding-left: 10px;
+    text-decoration:underline black;
+    text-decoration-thickness: 3px;
+}
+.profile-text{
+    color: #000;
+    font-size: 11px;
+    padding: 10px 4px;
+    margin: 0 10px;
+    word-spacing: 2px;
+}
+.bold-text{
+    color: white;
+    font-size: 14px;
+    padding-top:20px;
+    padding-left: 13px;
+    text-decoration:underline black;
+    text-decoration-thickness: 3px;
+}
+.strength-text{
+    color: white;
+    font-size: 14px;
+    padding-top:20px;
+    padding-left: 18px;
+    text-decoration:underline black;
+    text-decoration-thickness: 3px;
+    
+}
+.html{
+    color:black;
+    font-size: 12px;
+    padding-top:10px;
+    padding-left: 2px;
+}
+.css{
+    color: black;
+    font-size: 12px;
+    padding-top:4px;
+    padding-left: 2px;
+}
+.python{
+    color: black;
+    font-size: 12px;
+    padding-top:4px;
+    padding-left: 2px
+
+}
+.small-text{
+    font-size: 11px;
+    padding-top: 5px;
+    padding-left: 17px;
+    color: black;
+}
+.small-textt{
+    font-size: 11px;
+    padding-top: 5px;
+    padding-left: 19px;
+    color: black;
+}
+.hobby-text{
+    color: white;
+    font-size: 14px;
+    padding-top:20px;
+    padding-left: 19px;
+    text-decoration:underline black;
+    text-decoration-thickness: 3px;
+}
+.personal-text{
+    color: white;
+    font-size: 14px;
+    padding-top:17px;
+    padding-left: 18px;
+    text-decoration:underline black;
+    text-decoration-thickness: 3px;
+}
+.pic{
+    width:45px;
+    padding-left: 30px;
+}
+.red-text{
+    color:red;
+    font-size: 13px;
+    padding-top: 70px;
+    padding-left: 8px;
+    text-decoration: underline #000000;
+    text-decoration-thickness: 3px;
+}
+.quali-text{
+    color:red;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-left: 9px;
+    text-decoration: underline blue;
+    text-decoration-thickness: 3px;
+}
+.college{
+    padding-top: 5px;
+    padding-left: 20px;
+    font-size: 11px;
+}
+.quali{
+    color:red;
+    font-size: 13px;
+    padding-top: 40px;
+    padding-left: 11px;
+    text-decoration: underline blue;
+    text-decoration-thickness: 3px;
+}
+.experience{
+    color:red;
+    font-size: 13px;
+    padding-top: 30px;
+    padding-left: 12px;
+    text-decoration: underline black;
+    text-decoration-thickness: 3px;
+    
+}
+.work{
+    padding-top: 5px;
+    padding-left: 16px;
+    font-size: 11px;
+    margin:0 10px;
+}
+span{
+    color:blue;
+}
+.roles{
+    color:red;
+    font-size: 13px;
+    padding-top: 30px;
+    padding-left: 14px;
+    text-decoration: underline black;
+    text-decoration-thickness: 3px;
+}
+ul{
+    color:#000;
+    font-size: 12px;
+    margin: 0;
+    padding-left: 28px;
+    padding-top: 5px;
+}
+.declaration{
+    color:red;
+    font-size: 13px;
+    padding-top: 30px;
+    padding-left: 20px;
+    text-decoration: underline black;
+    text-decoration-thickness: 3px;
+}
+.dec-text{
+    font-size: 12px;
+    padding-left: 19px;
+    padding-top: 10px;
+    margin: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    font-size: 12px;
+}
+.place{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.span{
+    color:blue;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.truely-text{
+    font-size: 12px;
+    padding-right: 15px;
+}
+.truely{
+    padding-top: 13px;
+}
+.truely-name{
+    padding-top: 2px;
+    padding-left: 15px;
+}
