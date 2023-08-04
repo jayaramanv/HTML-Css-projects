@@ -1,0 +1,1094 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.wrapper span{
+    position: fixed;
+    top: -120px;
+    height: 50px;
+    width: 50px;
+    z-index: -1;
+    animation: animate 10s linear infinite;    
+    overflow-x: hidden;
+}
+.wrapper span:nth-child(1){
+    left: 60px;
+    animation-delay:0.6s;
+    /* border: 5px solid cyan; */
+}
+.wrapper span:nth-child(2){
+    left: 60%;
+    animation-delay: 3s;
+    width: 60px;
+    height: 60px;
+    /* background: #ff4293; */
+}
+.wrapper span:nth-child(3){
+    left: 20%;
+    animation-delay: 2s;
+    /* border: 5px solid #fff;     */
+}
+.wrapper span:nth-child(4){
+    left: 30%;
+    animation-delay: 5s;
+    width: 80px;
+    height: 80px;
+    /* background: #befb46; */
+}
+.wrapper span:nth-child(5){
+    left: 40%;
+    animation-delay: 1s;
+    /* border: 5px solid #ff4293; */
+}
+.wrapper span:nth-child(6){
+    left: 50%;
+    animation-delay: 7s;
+    /* border: 5px solid deepskyblue; */
+    /* background-image: url("python.gif"); */
+}
+.wrapper span:nth-child(7){
+    left: 60%;
+    animation-delay: 6s;
+    width: 100px;
+    height: 100px;
+    /* background: #ffd59e; */
+}
+.wrapper span:nth-child(8){
+    left: 70%;
+    animation-delay: 8s;
+    /* border: 5px solid #befb46; */
+}
+.wrapper span:nth-child(9){
+    left: 80%;
+    animation-delay: 6s;
+    width: 90px;
+    height: 90px;
+    /* background: cyan; */
+}
+.wrapper span:nth-child(10){
+    left: 90%;
+    animation-delay: 4s;
+    /* border: 5px solid #fff;     */
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+@keyframes animate{
+    0%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    80%{
+        opacity: 0.7;
+    }
+    100%{
+        transform: translateY(800px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Poppins', sans-serif
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    /* position: fixed; */
+    /* text-align: left; */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.content {
+    padding: 20px;
+}
+.main-container{
+    position: relative;
+    margin: 0;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+
+}
+.heading{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.thiru{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-auto-flow: column;
+    column-gap: 10px;
+}
+.tiu{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.main{
+    position: relative;
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    margin-top: 100px;
+    margin-right:900px;
+    /* column-gap:100px; */
+    
+}
+
+/* -----------------------------box1--------------------------------------- */
+.python{
+    width: 140px;
+    height: 140px;
+}
+.supbox1{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border:solid rgb(20, 4, 90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -7px;
+    margin-top: -80px;
+    border-radius:100px;
+    background-color: rgb(250, 250, 250);
+}
+.box1{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    border: solid blue;
+    border-radius: 50px;
+    border-style: inset;
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    column-gap: 100px;
+    /* background-color: blue; */
+    box-shadow: rgba(126, 126, 136, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(41, 43, 44, 0.35) 0px -2px 6px 0px inset;
+}
+.box1:hover{
+    /* background-color: #2980b9; */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.box1 h1{
+    position: absolute;
+    font-size: 60px;
+    margin-top: 90px;
+    color: rgb(34, 6, 136);
+}
+.box1 h2{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 170px;
+    color: rgb(34, 6, 136);
+}
+.box1 a{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 220px;
+}
+.box1 button{
+    width: 190px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(30, 57, 210);
+}
+.box1 button:hover{
+    /* background-color: #2980b9; */
+    /* Optionally, you can add additional styles for the hover effect */
+    /* For example, changing the text color when hovered */
+    color: #fff;
+    /* Adding a box-shadow or border */
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); */
+    border: 2px solid #fff;
+}
+/* -----------------------------box2------------------------------------ */
+.java{
+    width: 150px;
+    height: 150px;
+}
+.supbox2{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    /* border:solid orangered; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -7px;
+    margin-top: -80px;
+    border-radius:100px;
+    background-color: rgb(250, 250, 250);
+}
+.box2{
+    position: absolute;
+    margin-left: 600px;
+    width: 250px;
+    height: 300px;
+    border:  solid orangered;
+    border-style:ridge;
+    border-radius: 50px;
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    column-gap: 100px;
+    box-shadow: rgba(126, 126, 136, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(41, 43, 44, 0.35) 0px -2px 6px 0px inset;
+}
+.box2:hover{
+    /* background-color: #2980b9; */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.box2 h1{
+    position: absolute;
+    font-size: 60px;
+    margin-top: 90px;
+    color:orangered;
+}
+.box2 h2{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 170px;
+    color: orangered;
+}
+.box2 a{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 220px;
+}
+.box2 button{
+    width: 190px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: chocolate;
+}
+.box2 button:hover{
+    /* background-color: #2980b9; */
+    /* Optionally, you can add additional styles for the hover effect */
+    /* For example, changing the text color when hovered */
+    color: #fff;
+    /* Adding a box-shadow or border */
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); */
+    border: 2px solid #fff;
+}
+/* ------------------------box3----------------------------- */
+.full{
+    width: 140px;
+    height: 140px;
+}
+.supbox3{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border:solid rgb(20, 4, 90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -7px;
+    margin-top: -80px;
+    border-radius:100px;
+    background-color:gold;
+}
+.box3{
+    position: absolute;
+    margin-left: 1200px;
+    width: 250px;
+    height: 300px;
+    border:  solid gold;
+    border-style:ridge;
+    border-radius: 50px;
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    column-gap: 100px;
+    box-shadow: rgba(126, 126, 136, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(41, 43, 44, 0.35) 0px -2px 6px 0px inset;
+}
+.box3:hover{
+    /* background-color: #2980b9; */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.box3 h1{
+    position: absolute;
+    font-size: 60px;
+    margin-top: 90px;
+    color: goldenrod;
+}
+.box3 h2{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 170px;
+    color:goldenrod;
+}
+.box3 a{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 220px;
+}
+.box3 button{
+    width: 190px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color:yellowgreen;
+}
+.box3 button:hover{
+    /* background-color: #2980b9; */
+    /* Optionally, you can add additional styles for the hover effect */
+    /* For example, changing the text color when hovered */
+    color: #fff;
+    /* Adding a box-shadow or border */
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); */
+    border: 2px solid #fff;
+}
+/*-------------------------- box4-------------------------------- */
+.back{
+    width: 150px;
+    height: 150px;
+}
+.supbox4{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border:solid rgb(20, 4, 90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -7px;
+    margin-top: -80px;
+    border-radius:100px;
+    background-color:rgb(218, 28, 60);
+}
+.box4{
+    position: absolute;
+    margin-left: 1800px;
+    width: 250px;
+    height: 300px;
+    border:  solid rgb(218, 28, 60);
+    border-style:ridge;
+    border-radius: 50px;
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    column-gap: 100px;
+    box-shadow: rgba(126, 126, 136, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(41, 43, 44, 0.35) 0px -2px 6px 0px inset;
+}
+.box4:hover{
+    /* background-color: #2980b9; */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.box4 h1{
+    position: absolute;
+    font-size: 60px;
+    margin-top: 90px;
+    color: rgb(218, 28, 60);
+}
+.box4 h2{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 170px;
+    color:rgb(218, 28, 60);
+}
+.box4 a{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 220px;
+}
+.box4 button{
+    width: 190px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color:rgb(218, 28, 60);
+}
+.box4 button:hover{
+    /* background-color: #2980b9; */
+    /* Optionally, you can add additional styles for the hover effect */
+    /* For example, changing the text color when hovered */
+    color: #fff;
+    /* Adding a box-shadow or border */
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); */
+    border: 2px solid #fff;
+}
+/*-------------------------- box5-------------------------------- */
+.main2{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 450px;
+    margin-right:900px;
+    
+}
+.data{
+    width:135px;
+    height: 135px;
+    border-radius: 70px;
+}
+.supbox5{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border:solid rgb(20, 4, 90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -7px;
+    margin-top: -80px;
+    border-radius:100px;
+    background-color:rgb(7, 65, 7);
+}
+.box5{
+    position: absolute;
+    /* margin-left:600px; */
+    width: 250px;
+    height: 300px;
+    border:  solid rgb(7, 65, 7);
+    border-style:ridge;
+    border-radius: 50px;
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    column-gap: 100px;
+    box-shadow: rgba(126, 126, 136, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(41, 43, 44, 0.35) 0px -2px 6px 0px inset;
+}
+.box5:hover{
+    /* background-color: #2980b9; */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.box5 h1{
+    position: absolute;
+    font-size: 60px;
+    margin-top: 90px;
+    color: rgb(7, 65, 7);
+}
+.box5 h2{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 170px;
+    color:rgb(7, 65, 7);
+}
+.box5 a{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 220px;
+}
+.box5 button{
+    width: 190px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color:rgb(7, 65, 7);
+}
+.box5 button:hover{
+    /* background-color: #2980b9; */
+    /* Optionally, you can add additional styles for the hover effect */
+    /* For example, changing the text color when hovered */
+    color: #fff;
+    /* Adding a box-shadow or border */
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); */
+    border: 2px solid #fff;
+}
+/* --------------------------box6---------------------------------------- */
+.ai{
+    width: 150px;
+    height: 150px;
+}
+.supbox6{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border:solid rgb(20, 4, 90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -7px;
+    margin-top: -50px;
+    border-radius:100px;
+    background-color:red;
+}
+.box6{
+    position: absolute;
+    margin-left: 600px;
+    width: 250px;
+    height: 300px;
+    border:  solid red;
+    border-style:ridge;
+    border-radius: 50px;
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    column-gap: 100px;
+    box-shadow: rgba(126, 126, 136, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(41, 43, 44, 0.35) 0px -2px 6px 0px inset;
+}
+.box6:hover{
+    /* background-color: #2980b9; */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.box6 h1{
+    position: absolute;
+    font-size: 60px;
+    margin-top: 90px;
+    color:red;
+}
+.box6 h2{
+    position: absolute;
+    font-size: 50px;
+    margin-top: 160px;
+    color:red;
+}
+.box6 a{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 220px;
+}
+.box6 button{
+    width: 190px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color:red;
+}
+.box6 button:hover{
+    /* background-color: #2980b9; */
+    /* Optionally, you can add additional styles for the hover effect */
+    /* For example, changing the text color when hovered */
+    color: #fff;
+    /* Adding a box-shadow or border */
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); */
+    border: 2px solid #fff;
+}
+/*----------------------------- box7=------------------------------------------- */
+.cloud{
+    width: 180px;
+    height: 130px;
+    /* border-radius: 50px; */
+
+}
+.supbox7{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border:1px solid rgb(26, 27, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -7px;
+    margin-top: -80px;
+    border-radius:100px;
+    background-color:skyblue;
+}
+.box7{
+    position: absolute;
+    margin-left: 1200px;
+    width: 250px;
+    height: 300px;
+    border: solid skyblue;
+    border-style:ridge;
+    border-radius: 50px;
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    column-gap: 100px;
+    box-shadow: rgba(126, 126, 136, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(41, 43, 44, 0.35) 0px -2px 6px 0px inset;
+}
+.box7:hover{
+    /* background-color: #2980b9; */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.box7 h1{
+    position: absolute;
+    font-size: 60px;
+    margin-top: 90px;
+    color:rgb(13, 62, 82);
+}
+.box7 h2{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 170px;
+    color:rgb(14, 86, 114);
+}
+.box7 a{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 220px;
+}
+.box7 button{
+    width: 190px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color:skyblue;
+}
+.box7 button:hover{
+    color: #fff;
+    border: 2px solid #fff;
+}
+/* ----------------------------box8---------------------------------------------- */
+.bus{
+    width: 130px;
+    height: 130px;
+    border-radius: 60px;
+}
+.supbox8{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border:solid rgb(5, 5, 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -7px;
+    margin-top: -80px;
+    border-radius:100px;
+    background-color:red;
+}
+.box8{
+    position: absolute;
+    margin-left: 1800px;
+    width: 250px;
+    height: 300px;
+    border:  solid brown;
+    border-style:ridge;
+    border-radius: 50px;
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    column-gap: 100px;
+    box-shadow: rgba(126, 126, 136, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(41, 43, 44, 0.35) 0px -2px 6px 0px inset;
+}
+.box8:hover{
+    box-shadow: 0px 0px 15px rgba(204, 15, 15, 0.9);
+}
+.box8 h1{
+    position: absolute;
+    font-size: 50px;
+    margin-top: 80px;
+    color: brown;
+}
+.box8 h2{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 150px;
+    color:brown;
+}
+.box8 a{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 220px;
+}
+.box8 button{
+    width: 190px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color:brown;
+}
+.box8 button:hover{
+    color: #fff;
+    border: 2px solid #fff;
+}
+/* ---------------------------box9--------------------------------------- */
+.main3{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 450px;
+    margin-right:900px;
+    
+}
+.Linux{
+    width: 200px;
+    height: 140px;
+    /* border-radius: 60px; */
+}
+.supbox9{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border:solid rgb(5, 5, 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -7px;
+    margin-top: -80px;
+    border-radius:100px;
+    background-color: rgb(36, 139, 10);
+}
+.box9{
+    position: absolute;
+    /* margin-left: 1800px; */
+    width: 250px;
+    height: 300px;
+    border:  solid  rgb(36, 139, 10);
+    border-style:ridge;
+    border-radius: 50px;
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    column-gap: 100px;
+    box-shadow: rgba(126, 126, 136, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(41, 43, 44, 0.35) 0px -2px 6px 0px inset;
+}
+.box9:hover{
+    box-shadow: 0px 0px 15px rgba(204, 15, 15, 0.9);
+}
+.box9 h1{
+    position: absolute;
+    font-size: 50px;
+    margin-top: 80px;
+    color: rgb(36, 139, 10);
+}
+.box9 h2{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 150px;
+    color: rgb(36, 139, 10);
+}
+.box9 a{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 220px;
+}
+.box9 button{
+    width: 190px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(36, 139, 10);
+}
+.box9 button:hover{
+    color: #fff;
+    border: 2px solid #fff;
+}
+/* ---------------------------box10--------------------------------------- */
+.dev{
+    width: 135px;
+    height: 135px;
+    border-radius: 70px;
+}
+.supbox10{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border:solid rgb(5, 5, 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -7px;
+    margin-top: -80px;
+    border-radius:100px;
+    background-color:rgb(255, 0, 170);
+}
+.box10{
+    position: absolute;
+    margin-left:600px;
+    width: 250px;
+    height: 300px;
+    border:  solid rgb(255, 0, 170);
+    border-style:ridge;
+    border-radius: 50px;
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    column-gap: 100px;
+    box-shadow: rgba(126, 126, 136, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(41, 43, 44, 0.35) 0px -2px 6px 0px inset;
+}
+.box10:hover{
+    box-shadow: 0px 0px 15px rgba(204, 15, 15, 0.9);
+}
+.box10 h1{
+    position: absolute;
+    font-size: 50px;
+    margin-top: 80px;
+    color: rgb(255, 0, 170);
+}
+.box10 h2{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 150px;
+    color:rgb(255, 0, 170);
+}
+.box10 a{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 220px;
+}
+.box10 button{
+    width: 190px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color:rgb(255, 0, 170);
+}
+.box10 button:hover{
+    color: #fff;
+    border: 2px solid #fff;
+}
+/* ---------------------------box11--------------------------------------- */
+.ora{
+    width: 135px;
+    height: 135px;
+    border-radius: 80px;
+}
+.supbox11{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border:solid rgb(5, 5, 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -7px;
+    margin-top: -80px;
+    border-radius:100px;
+    background-color:grey;
+}
+.box11{
+    position: absolute;
+    margin-left: 1200px;
+    width: 250px;
+    height: 300px;
+    border:  solid grey;
+    border-style:ridge;
+    border-radius: 50px;
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    column-gap: 100px;
+    box-shadow: rgba(126, 126, 136, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(41, 43, 44, 0.35) 0px -2px 6px 0px inset;
+}
+.box11:hover{
+    box-shadow: 0px 0px 15px rgba(204, 15, 15, 0.9);
+}
+.box11 h1{
+    position: absolute;
+    font-size: 50px;
+    margin-top: 80px;
+    color: rgb(53, 50, 50);
+}
+.box11 h2{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 150px;
+    color:rgb(41, 39, 39);
+}
+.box11 a{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 220px;
+}
+.box11 button{
+    width: 190px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color:grey;
+}
+.box11 button:hover{
+    color: #fff;
+    border: 2px solid #fff;
+}
+/* ---------------------------box12--------------------------------------- */
+.intel{
+    width: 130px;
+    height: 130px;
+    border-radius: 60px;
+}
+.supbox12{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border:solid rgb(5, 5, 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -7px;
+    margin-top: -80px;
+    border-radius:100px;
+    background-color:rgb(159, 190, 224);
+}
+.box12{
+    position: absolute;
+    margin-left: 1800px;
+    width: 250px;
+    height: 300px;
+    border:  solid rgb(159, 190, 224);
+    border-style:ridge;
+    border-radius: 50px;
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    column-gap: 100px;
+    box-shadow: rgba(126, 126, 136, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(41, 43, 44, 0.35) 0px -2px 6px 0px inset;
+}
+.box12:hover{
+    box-shadow: 0px 0px 15px rgba(204, 15, 15, 0.9);
+}
+.box12 h1{
+    position: absolute;
+    font-size: 50px;
+    margin-top: 80px;
+    color: rgb(159, 190, 224);
+}
+.box12 h2{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 150px;
+    color:rgb(159, 190, 224);
+}
+.box12 a{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 220px;
+}
+.box12 button{
+    width: 190px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color:rgb(159, 190, 224);
+}
+.box12 button:hover{
+    color: #fff;
+    border: 2px solid #fff;
+}
+/* ---------------------------------------------- */
+.main4{
+    position: relative;
+    display:flex;
+    margin-top: 10px;
+    /* margin-right:900px; */
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+.aru h1{
+    display: flex;
+    margin-top: 350px;
+    /* align-items: center; */
+    text-align: center;
+    justify-content: center;
+}
+.aru span{
+    color: rgb(12, 221, 12);
+}
+.img1{
+    width: 100px;
+    height: 90px;
+}
+.img:hover{
+
+}
+.create{
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    /* flex-direction: column; */
+    /* margin-right: 800px; */
+    width: 400px;
+    height: 300px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;   
+}
+.create:hover{
+    /* cursor: pointer; */
+    background-color: aqua;
+}
+.create1:hover{
+    /* cursor: pointer; */
+    background-color: aqua;
+}
+.create2:hover{
+    /* cursor: pointer; */
+    background-color: aqua;
+}
+.main4:hover {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    animation-name: example;
+    animation-duration: 0.25s;
+    border-left: 8px solid red;
+    /* background-color: rgb(238, 238, 174); */
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+.img2{
+    width: 130px;
+    height: 90px;
+}
+.create1{
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+    /* margin-right: 800px; */
+    width: 400px;
+    height: 300px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;   
+}
+.img3{
+    width: 100px;
+    height: 100px;
+}
+.create2{
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    /* margin-right: 800px; */
+    width: 400px;
+    height: 300px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;   
+}
